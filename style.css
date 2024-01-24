@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(0, 145, 255);
+    width: 100%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    text-align: center;
+    background-color: gainsboro;
+}
+
+img {
+    width: 500px;
+}
+
+#bild,
+#bild_begleitender_text {
+    display: inline-block;
+}
+
+#bild {
+    float: left;
+}
+
+#bild_begleitender_text {
+    width: 750px;
+    padding: 5%;
+}
+
+#bild_begleitender_text ul {
+    list-style-position: inside;
+}
